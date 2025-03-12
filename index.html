@@ -1,60 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="he">
 <head>
-<style>
-.button {
-  background-color: #4CAF50;
-  border: none;
-  border-radius: 6px;
-  color: white;
-  padding: 15px 32px;
-  text-align: right;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-transition: 0.3s;
-}
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Rubik:wght@400;500;700&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Rubik', sans-serif;
+            background-color: #f4f4f4;
+            color: #757575;
+            margin: 0;
+            padding: 0;
+            direction: rtl;
+            font-weight: bold;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            box-sizing: border-box;
+        }
 
-.button:focus
-{ background-color: DarkOliveGreen;
-transition: 0.3s;
-}
-div.c {
-  text-align: center;
-} 
+        .message {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 20px;
+        }
 
-#copyright {
- position: center; bottom: 0; }
-</style>
+        .material-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #555;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 35px;
+            max-width: 220px;
+            transition: background-color 0.3s ease-in-out;
+            font-size: 16px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .material-link img {
+            width: 40px;
+            height: 40px;
+            margin-left: 10px;
+        }
+
+        .material-link:hover {
+            background-color: #666;
+        }
+    </style>
 </head>
-<body dir="rtl">
+<body>
 
-<div class="c">
-<h2>הורדת WhatsApp כשר</h2><hr>
-<p>הורדת הגירסא האחרונה של WhatsApp</p>
+<div class="message">הווצאפ הכשר עבר לתוך אפליקציית מסננים</div>
 
-<!-- WhatsApp -->
-
-<div class="c">
-<img src="assets/logo/whatsapp_logo.png" width="280" height="210">
-<br><br><a href="https://webanddroid.com/Developer/WhatsApp/GitHub/WhatsApp.apk" class="button">לחץ להורדה</a>
-
-<div class="c">
-<br><a href="https://webanddroid.com/Developer/WhatsApp/GitHub/Business.apk" class="button">לחץ להורדת ווצאפ לעסקים</a>
-
-<p>בסיום ההורדה יש להתקין את העדכון על ידי לחיצה על שורת ההתראות למעלה.</p>
-
-
-<!-- Copyrights -->
-
-<br><div id="copyright"><br>
-<img src="assets/logo/ic_kosher.png" alt="החנות הכשרה" width="72" height="72">
-
-<class="c">
-<p><a>© נבנה על ידי שלום כהן</a> </p>
-</div>
+<a href="https://filter.cohenkosherstore.com/FilterApp.apk" class="material-link">
+    <img src="assets/logo/ic_filterapp.png">
+   להורדת האפליקציה
+</a>
 
 </body>
 </html>
